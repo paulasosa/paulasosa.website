@@ -1,4 +1,17 @@
 :root{
-  font-family: cursive;
-  font-size: 16px;
+  margin: 0;
+  padding: 0%;
+  font-family: cursive, 'Times New Roman', Times, serif, sans-serif;
 }
+
+body{
+  width: 90%;
+  height: auto;
+  font-size: 1rem;
+  padding: 2rem;
+}
+main {
+  width: 100%;
+  height: auto;
+}
+
