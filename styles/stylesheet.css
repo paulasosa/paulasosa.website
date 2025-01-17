@@ -15,3 +15,13 @@ main {
   height: auto;
 }
 
+.iconos_habilidades {
+  width: 100%;
+  height: auto;
+}
+.iconos_habilidades img {
+  width: 32px;
+}
+.face-instagram img {
+  width: 32px;
+}
