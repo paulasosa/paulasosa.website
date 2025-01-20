@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0%;
   font-family: cursive, 'Times New Roman', Times, serif, sans-serif;
+  --fondo1: linear-gradient(to right top, #ccacff, #abc3ff, #9cd4ff, #a5e1fa, #bfeaf0);
+  --fondo2: linear-gradient(to right top, #ffc4c4, #ffd1bc, #fce1bd, #f1f0c8, #e4ffdc);
+  --fondo3: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);;
+}
+html {
+  background-image: var(--fondo1);
 }
 
 body{
@@ -15,13 +21,31 @@ main {
   height: auto;
 }
 
-.iconos_habilidades {
-  width: 100%;
-  height: auto;
+img {
+  max-width: 2rem;
 }
-.iconos_habilidades img {
-  width: 32px;
+
+header {
+  display: flex;
+  gap: 1rem;
+  max-width: 70%;
+  margin: 0.5rem;
 }
-.face-instagram img {
-  width: 32px;
+
+button {
+  border-radius: 50%;
+  min-width: 2rem;
+  min-height: 2rem;
+  max-width: 3rem;
+  max-height: 3rem;
+}
+.perfil {
+  border-radius: 40%;
+  min-width: 2rem;
+  min-height: 2rem;
+  max-width: 3rem;
+  max-height: 3rem;
+}
+.name {
+  font-size: 2.5rem;
 }
