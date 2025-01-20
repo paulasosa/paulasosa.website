@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES*/
 :root{
   margin: 0;
   padding: 0%;
@@ -7,45 +8,77 @@
   --fondo3: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);;
 }
 html {
-  background-image: var(--fondo1);
+  background-image: var(--fondo3);
 }
 
 body{
   width: 90%;
   height: auto;
   font-size: 1rem;
-  padding: 2rem;
+  padding: 2%;
 }
 main {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
 img {
-  max-width: 2rem;
+  max-width: 2.5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+/*ESTILOS HEADER*/
 header {
   display: flex;
-  gap: 1rem;
-  max-width: 70%;
-  margin: 0.5rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+button {
+  border-radius: 40%;
+  border-color: #fdf7d3e1;
+  max-width: 3rem; 
 }
 
-button {
-  border-radius: 50%;
-  min-width: 2rem;
-  min-height: 2rem;
-  max-width: 3rem;
-  max-height: 3rem;
+.oscuro-claro {
+  border-radius: 100%;
+  max-width: 2rem; 
 }
+
 .perfil {
-  border-radius: 40%;
+  border-radius: 30%;
   min-width: 2rem;
-  min-height: 2rem;
   max-width: 3rem;
-  max-height: 3rem;
 }
 .name {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  padding-left: 1rem;
 }
+
+/*ESTILOS ASIDE*/
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;  
+  position: fixed;
+  gap: 20px;
+  height: auto;
+}
+
+li {
+  list-style: none;
+  border: #ccacff solid 3px;
+}
+
+.container-nav {
+  /*float:right;*/
+  float: inline-end;
+  font-size: 1.5rem;
+  /*margin-right: 5%;*/
+  min-width: 5%; 
+}
+
