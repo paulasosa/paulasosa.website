@@ -1,18 +1,20 @@
-/*ESTILOS GENERALES*/
+/* ¡¡¡¡¡¡¡NO FUNCIONA COMO QUIERO!!!!!!!!!!
 :root{
   margin: 0;
   padding: 0%;
   font-family: cursive, 'Times New Roman', Times, serif, sans-serif;
-  --fondo1: linear-gradient(to right top, #ccacff, #abc3ff, #9cd4ff, #a5e1fa, #bfeaf0);
-  --fondo2: linear-gradient(to right top, #ffc4c4, #ffd1bc, #fce1bd, #f1f0c8, #e4ffdc);
-  --fondo3: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);;
+  --fondo1: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);;
+
 }
 html {
-  background-image: var(--fondo3);
+  max-height: auto;
+  max-width: 100%;
+  background-image: var(--fondo1);
 }
 
 body{
-  width: 90%;
+  
+  width: 80%;
   height: auto;
   font-size: 1rem;
   padding: 2%;
@@ -29,25 +31,29 @@ img {
 a {
   text-decoration: none;
 }
-
-/*ESTILOS HEADER*/
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 2rem;
-}
+ESTILOS BOTON CAMBIO DE OSCURO A CLARO
 button {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
   border-radius: 40%;
   border-color: #fdf7d3e1;
   max-width: 3rem; 
 }
-
 .oscuro-claro {
   border-radius: 100%;
   max-width: 2rem; 
 }
 
+/*ESTILOS HEADER
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+  
+}
 .perfil {
   border-radius: 30%;
   min-width: 2rem;
@@ -58,28 +64,148 @@ button {
   padding-left: 1rem;
 }
 
-/*ESTILOS ASIDE*/
-
+/*ESTILOS MAIN 
+SECTION ASIDE
+main {
+  max-width: 90%;
+}
 ul {
+  display: grid;
+  flex-direction: column;
+  align-items: flex-end; 
+  
+}
+.container-rigth {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;  
+  align-items: flex-end; 
+  float: inline-end;
   position: fixed;
+  max-width: 30%;
+  height: auto;
   gap: 20px;
   height: auto;
   padding-right: .5rem;
 }
-
 li {
   list-style: none;
-  border: #ccacff solid 3px;
 }
+/*ESTILOS MAIN 
+SECTION ASIDE
+.container-left {
+  display: grid;
+  max-width: 70%;
+}
+*/
 
-.container-nav {
-  /*float:right;*/
+/*ESTILOS GENERALES*/
+
+:root{
+  margin: 0;
+  padding: 0%;
+  font-family: cursive, 'Times New Roman', Times, serif, sans-serif;
+  --fondo1: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);;
+}
+html {
+  background-image: var(--fondo1);
+}
+body {
+  max-width: 90%;
+  padding: 2%;
+  height: auto;
+}
+img {
+  min-width: 1rem;
+  max-width: 2.5rem;
+}
+a{
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/*HEADER*/
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+#header .oscuro-claro button {
+  max-width: 3.5rem; 
+  border-radius: 40%;
+  border-color: #fdf28c00;
+  background-color: #fff9dc3a;
+}
+#header .oscuro-claro button img {
+  max-width: 2rem; 
+  border-radius: 100%;
+}
+.fotoynombreperfil img {
+  border-radius: 30%;
+  min-width: 2rem;
+  max-width: 3rem;
+}
+.fotoynombreperfil span {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+/*ASIDE*/
+.container-aside {
+  display: flex;
+  flex-direction: column;
   float: inline-end;
-  font-size: 1.5rem;
-  /*margin-right: 5%;*/
-  min-width: 5%; 
 }
 
+/*MAIN*/
+#knowledge img {
+  border: solid 2px;
+  border-radius: 20%;
+  justify-content: center;
+}
+
+.youtube {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#aboutme .youtube img {
+  border: solid 2px;
+  border-radius: 20%;
+  min-width: 2.5rem;
+  max-width: 7rem;
+}
+.escritura {
+  display: flex;
+  gap: 20px;
+  padding-top: .5rem;
+  justify-content: center;
+}
+.escritura img {
+  border: solid 2px;
+  border-radius: 60%;
+  min-width: 2.5rem;
+  max-width: 3rem;
+}
+
+.contacto {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.contacto img {
+  border: solid 2px;
+  border-radius: 70%;
+  min-width: 2.5rem;
+  max-width: 3rem;
+  justify-content: center;
+}
+
+/*FOOTER*/
+footer {
+  max-width: 100%;
+  height: 2%;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #f263f721;
+}
