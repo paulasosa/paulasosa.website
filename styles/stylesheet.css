@@ -67,6 +67,7 @@ ul {
   position: fixed;
   gap: 20px;
   height: auto;
+  padding-right: .5rem;
 }
 
 li {
