@@ -69,27 +69,23 @@ header {
   color: #02500f;
   font-size: 3.5rem;
 }
-.container-img-fondo {
-  background-image: url(../img_fondo/IMG_0911.JPG);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
 
 #knowledge {
   gap: 20px;
-  justify-content: center;
 }
 #knowledge img {
   border: solid 2px;
   border-radius: 20%;
-  justify-content: center;  
   min-width: 1rem;
   max-width: 2.5rem;
   min-height: 1rem;
   max-height: 2.5rem;
 }
-
+.iconos_habilidades {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 .youtube {
   display: flex;
   gap: 20px;
