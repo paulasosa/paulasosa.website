@@ -19,6 +19,16 @@ a{
 li {
   list-style: none;
 }
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
 
 /*HEADER*/
 header {
@@ -39,7 +49,7 @@ header {
 .fotoynombreperfil img {
   border-radius: 30%;
   min-width: 2rem;
-  max-width: 3rem;
+  max-width: 4rem;
 }
 .fotoynombreperfil span {
   font-size: 3rem;
@@ -53,7 +63,7 @@ header {
   float: inline-end;
   max-width: 30%;
   font-size: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   gap: 2rem;
 }
 
@@ -64,10 +74,27 @@ header {
   margin: 0;
 }
 #home h2 {
-  margin: 0;
+  margin-top: 1rem;
   text-align: center;
   color: #02500f;
   font-size: 3.5rem;
+}
+
+#projects {
+  display: grid;
+  max-width: 70%;
+}
+div {
+  display: flex;  
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+#projects .img_projects img {
+  display: flex;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 #knowledge {
