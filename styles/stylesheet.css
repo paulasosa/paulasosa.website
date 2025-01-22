@@ -104,7 +104,6 @@ div {
   gap: 20px;  
 }
 #knowledge img {
-  border: solid 2px;
   border-radius: 20%;
   min-width: 1rem;
   max-width: 3.5rem;
@@ -123,7 +122,6 @@ div {
 }
 
 #aboutme .youtube img {
-  border: solid 2px;
   border-radius: 20%;
   min-width: 2.5rem;
 }
@@ -134,7 +132,6 @@ div {
   justify-content: center; 
 }
 .escritura img {
-  border: solid 2px;
   border-radius: 60%;
   min-width: 2.5rem;
   max-width: 3.5rem;
@@ -146,7 +143,6 @@ div {
   justify-content: center;
 }
 .contacto img {
-  border: solid 2px;
   border-radius: 70%;
   min-width: 2.5rem;
   max-width: 3.5rem;
