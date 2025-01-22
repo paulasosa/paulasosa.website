@@ -50,7 +50,7 @@ header {
 }
 .fotoynombreperfil img {
   border-radius: 30%;
-  min-width: 2rem;
+  min-width: 2.5rem;
   max-width: 4rem;
 }
 .fotoynombreperfil span {
