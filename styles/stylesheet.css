@@ -2,7 +2,7 @@
 :root{
   margin: 0;
   padding: 0%;
-  font-family: cursive, 'Times New Roman', Times, serif, sans-serif;
+  font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
   --fondo1: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);
   --fondo2: linear-gradient(to right top, #fed9ff, #ffd8ee, #ffd9de, #ffddd3, #ffe2ce);
   --fondo3: linear-gradient(to right top, #fed9ff, #ffd4ec, #ffd2d8, #ffd2c6, #fdd5ba);
@@ -34,9 +34,19 @@ p {
 
 /*HEADER*/
 header {
+  position: fixed;
+  width: 70%;
+  margin: 0;
+  gap: 25px;
+  font-weight: bold;
+}
+header {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  align-items: center;
+}
+header span {
+  color: #016970;
 }
 #header .oscuro-claro button {
   max-width: 3.5rem; 
@@ -67,6 +77,11 @@ header {
   font-size: 2rem;
   margin-top: 2.5rem;
   gap: 2rem;
+}
+.container-aside {
+  position: fixed;
+  padding-left: 70%;
+  width: 100%;
 }
 
 /*MAIN*/
