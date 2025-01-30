@@ -1,13 +1,18 @@
-/*ESTILOS GENERALES*/
+/*ESTILOS GENERALES   -- EL DISEÑO ESTÁ FUNCIONANDO EN PANTALLA DE 751px EN ADELANTE!!!!*/
 :root{
   margin: 0;
   padding: 0%;
+  /*color-scheme: light dark;*/
   font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
   --fondo1: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);
   --fondo2: linear-gradient(to right top, #fed9ff, #ffd8ee, #ffd9de, #ffddd3, #ffe2ce);
   --fondo3: linear-gradient(to right top, #fed9ff, #ffd4ec, #ffd2d8, #ffd2c6, #fdd5ba);
+  --oscuro: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
 }
+
 html {
+  /*color: light-dark(var(--fondo1), var(--oscuro));
+  background-color: light-dark(var(--oscuro), var(--fondo1));*/
   background-image: var(--fondo1);
 }
 body {
@@ -34,16 +39,15 @@ p {
 
 /*HEADER*/
 header {
+  background-color: #fce9c5b6;
+}
+  
+header {
+  display: flex;
   position: fixed;
   width: 70%;
   margin: 0;
-  gap: 25px;
   font-weight: bold;
-}
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 header span {
   color: #016970;
@@ -53,6 +57,7 @@ header span {
   border-radius: 40%;
   border-color: #fdf28c00;
   background-color: #fff9dc3a;
+  margin-right: 25px;
 }
 #header .oscuro-claro button img {
   max-width: 2rem; 
@@ -75,7 +80,7 @@ header span {
   float: inline-end;
   max-width: 30%;
   font-size: 2rem;
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   gap: 2rem;
 }
 .container-aside {
@@ -87,6 +92,7 @@ header span {
 /*MAIN*/
 main {
   max-width: 70%;
+  margin-top: 4rem;
 }
 
 #home {
