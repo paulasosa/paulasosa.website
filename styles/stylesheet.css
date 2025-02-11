@@ -59,6 +59,7 @@ header span {
 }
 #header .oscuro-claro button img {
   max-width: 2rem; 
+  border-radius: 50%;
 }
 .fotoynombreperfil img {
   border-radius: 30%;
