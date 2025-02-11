@@ -1,7 +1,7 @@
 /*ESTILOS GENERALES   -- EL DISEÑO ESTÁ FUNCIONANDO EN PANTALLA DE 751px EN ADELANTE!!!!*/
 :root{
   margin: 0;
-  padding: 0%;
+  padding: 0;
   /*color-scheme: light dark;*/
   font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
   --fondo1: linear-gradient(to right top, #f8def9, #ffdfe7, #ffe6d4, #fff2cd, #e4ffdc);
@@ -15,7 +15,7 @@ html {
   background-image: var(--oscuro);
 }
 body {
-  max-width: 90%;
+  max-width: 100%;
   padding: 2%;
   height: auto;
 }
@@ -26,9 +26,13 @@ a{
 li {
   list-style: none;
 }
+h1 {
+  margin: 1%;
+}
 h2 {
   font-size: 3rem;
   color: var(--titlecolor);
+  margin: 1%;
 }
 h3 {
   font-size: 2rem;
@@ -40,17 +44,24 @@ p {
 
 
 /*HEADER*/
-
+#fixed-part {
+  display: block;
+  width: 100%;
+}
+#fixed-part header, aside{
+  background-color: #b9b9b9e8;
+}
 header {
+  width: 90%;
   display: flex;
-  /*position: fixed;*/
-  width: 70%;
-  margin: 0;
+  position: fixed;
   font-weight: bold;
+  justify-content: center;
 }
 header span {  
   color: var(--titlecolor);
 }
+
 #header .oscuro-claro button {
   border-radius: 100%;
   border-color: #fdf28c00;
@@ -74,30 +85,27 @@ header span {
 /*ASIDE*/
 .container-aside {
   display: flex;
-  flex-direction: column;
-  float: inline-end;
-  max-width: 30%;
-  font-size: 2rem;
-  margin-top: 4rem;
+  font-size: 1.6rem;
+  margin-top: 3.45rem;
   gap: 2rem;
 }
 .container-aside {
   position: fixed;
-  padding-left: 70%;
-  width: 100%;
+  width: 86%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 /*MAIN*/
 main {
-  max-width: 70%;
-  margin-top: 4rem;
+  max-width: 90%;
+  padding: 5%;
 }
 
 #home {
-  margin: 0;
+  margin-top: 10%;
 }
 #home h2 {
-  margin-top: 1rem;
   text-align: center;
   color: #002f07;
   font-size: 3.5rem;
