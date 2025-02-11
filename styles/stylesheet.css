@@ -52,14 +52,14 @@ header span {
   color: var(--titlecolor);
 }
 #header .oscuro-claro button {
-  border-radius: 50%;
+  border-radius: 100%;
   border-color: #fdf28c00;
   background-color: #fff9dc3a;
   margin-right: 25px;
 }
 #header .oscuro-claro button img {
   max-width: 2rem; 
-  border-radius: 50%;
+  border-radius: 100%;
 }
 .fotoynombreperfil img {
   border-radius: 30%;
