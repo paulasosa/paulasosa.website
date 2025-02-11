@@ -52,15 +52,13 @@ header span {
   color: var(--titlecolor);
 }
 #header .oscuro-claro button {
-  max-width: 2.5rem; 
-  border-radius: 40%;
+  border-radius: 50%;
   border-color: #fdf28c00;
   background-color: #fff9dc3a;
   margin-right: 25px;
 }
 #header .oscuro-claro button img {
   max-width: 2rem; 
-  border-radius: 100%;
 }
 .fotoynombreperfil img {
   border-radius: 30%;
@@ -178,5 +176,4 @@ footer {
   margin: 2rem;
   font-size: 1rem;
   max-width: 100%;
-  background-image: var(--fondo3);
 }
