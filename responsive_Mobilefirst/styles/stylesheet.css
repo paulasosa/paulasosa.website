@@ -1,0 +1,148 @@
+/*MOBILE FIRST*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
+  --oscuro: linear-gradient(to right top, #b9b9b9, #ffffff);
+  --titlecolor: rgb(86, 2, 86);
+}
+
+/*Estilos Mobile First*/
+html {
+  background-image: var(--oscuro);
+}
+header {
+  width: 90%;
+  height: auto;
+  background-color: var(--oscuro);
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+}
+header img{
+  max-width: 2rem;
+}
+p {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.3rem;
+}
+
+nav ul {
+  background-color: #b9b9b9;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 1%;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--titlecolor);
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 10px;
+  color: var(--titlecolor);
+}
+h3{
+  font-size: 1.8rem;
+  padding: 10px;
+  color: var(--titlecolor);
+}
+h4 {
+  font-size: 1.5rem;
+  color: green;
+}
+
+
+/*ANIMATION WITH JS*/
+.container-center {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.content {
+  min-width: 150px;
+  min-height: 150px;
+  background-color: black;
+}
+
+footer {
+  max-width: 90%;
+  display: flex;
+  justify-content: end;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 2rem;
+}
+
+/*Estilos @Media Responsive*/
+
+@media (min-width: 760px) and (max-width: 1023px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+      font-size: 1.8rem;
+  }
+  li {
+    font-size: 1.8rem;
+  }
+  .contents {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+  .content {
+      width: 200px;
+      height: 200px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1920px){
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
+  p {
+      font-size: 2rem;
+  }
+  li {
+      font-size: 2rem;
+  }
+  .contents {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+  }
+  .content {
+      width: 300px;
+      height: 300px;
+  }
+}
