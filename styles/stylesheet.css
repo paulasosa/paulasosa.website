@@ -9,6 +9,7 @@
   --titlecolor: rgb(86, 2, 86);
 }
 
+
 html {
   /*color: light-dark(var(--fondo1), var(--oscuro));
   background-color: light-dark(var(--oscuro), var(--fondo1));*/
@@ -57,6 +58,7 @@ header {
   position: fixed;
   font-weight: bold;
   justify-content: center;
+  padding-top: 10px;
 }
 header span {  
   color: var(--titlecolor);
@@ -86,8 +88,10 @@ header span {
 .container-aside {
   display: flex;
   font-size: 1.6rem;
-  margin-top: 3.45rem;
+  margin-top: 4rem;
   gap: 2rem;
+  padding-top: 10px;
+  justify-content: center;
 }
 .container-aside {
   position: fixed;
