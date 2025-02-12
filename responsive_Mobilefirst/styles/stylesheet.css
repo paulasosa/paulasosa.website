@@ -13,6 +13,9 @@
 html {
   background-image: var(--oscuro);
 }
+body {
+  overflow-x: hidden;
+}
 header {
   width: 90%;
   height: auto;
@@ -86,19 +89,17 @@ h4 {
 }
 .contents {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: non-repeat(1fr);
+  gap: 10px;
 }
-
-#youtube {
-  max-width: 70%;
-  display: flex;
-  justify-content: center;
+main img {
+  min-width: 150px;
+  max-width: 300px;
 }
 
 .content {
-  min-width: 150px;
-  min-height: 150px;
+  min-width: 100px;
+  min-height: 100px;
   background-color: black;
 }
 
@@ -110,7 +111,6 @@ footer {
   font-weight: 700;
   margin: 2rem;
 }
-
 
 
 /*Estilos @Media Responsive*/
@@ -127,12 +127,12 @@ footer {
     font-size: 1.8rem;
   }
   .contents {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
   .content {
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
   }
 }
 
@@ -158,7 +158,7 @@ footer {
   }
   .contents {
       grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
+      gap: 25px;
   }
   .content {
       width: 300px;
