@@ -89,18 +89,29 @@ h4 {
 }
 .contents {
   display: grid;
-  grid-template-columns: non-repeat(1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 main img {
-  min-width: 150px;
-  max-width: 300px;
+  min-width: 50px;
+  max-width: 50px;
 }
 
 .content {
-  min-width: 100px;
-  min-height: 100px;
-  background-color: black;
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.contents-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.icons {
+  min-width: 50px;
+  min-height: 50px;
 }
 
 footer {
@@ -131,8 +142,19 @@ footer {
     gap: 20px;
   }
   .content {
-      width: 250px;
-      height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+  }
+  .contents-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .icons {
+    min-width: 100px;
+    min-height: 100px;
   }
 }
 
@@ -161,7 +183,19 @@ footer {
       gap: 25px;
   }
   .content {
-      width: 300px;
-      height: 300px;
+    min-width: 350px;
+    min-height: 350px;
+  }
+  .contents-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .icons {
+    margin: 10px;
+    min-width: 100px;
+    min-height: 100px;
   }
 }
