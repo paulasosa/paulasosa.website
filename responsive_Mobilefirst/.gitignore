@@ -399,5 +399,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 *img_fondo
-*icons*img_projects
+*icons
+*img_projects
 *png
