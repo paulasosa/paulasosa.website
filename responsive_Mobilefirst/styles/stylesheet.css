@@ -112,6 +112,7 @@ footer {
   }
   p {
       font-size: 1.8rem;
+      padding: 5px;
   }
   li {
     font-size: 1.8rem;
@@ -141,6 +142,7 @@ footer {
   }
   p {
       font-size: 2rem;
+      padding: 15px;
   }
   li {
       font-size: 2rem;
