@@ -59,7 +59,7 @@ li, a {
 .container-center {
     width: 80%;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10%;
     align-content: center;
 }
 .contents {
@@ -77,11 +77,67 @@ li, a {
 /*Estilos @Media Responsive*/
 
 @media (min-width: 760px) and (max-width: 1023px) {
-
+    header {
+        font-size: 2rem;
+    }
+    nav {
+        padding: 0%;
+    }
+    ul {
+        font-size: 1.8rem;
+        gap: 20px;
+    }
+    
+    footer {
+        font-size: 1.8rem;
+    }
+    .center {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .container-center {
+        margin-left: 10%;
+    }    
+    .contents {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .content {
+        min-width: 150px;
+        min-height: 250px;     
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1920px) {
-
+    header {
+        font-size: 2rem;
+    }
+    nav {
+        padding: 0%;
+    }
+    ul {
+        font-size: 1.8rem;
+        gap: 20px;
+    }
+    
+    footer {
+        font-size: 1.8rem;
+    }
+    .center {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .container-center {
+        margin-left: 10%;
+    }    
+    .contents {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .content {
+        min-width: 150px;
+        min-height: 250px;     
+    }
 }
 
 
