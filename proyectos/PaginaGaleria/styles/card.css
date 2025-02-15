@@ -1,5 +1,6 @@
 .content {
     border-radius: 10%;
+    max-height: max-content;
 }
 .card {
     background-color: rgba(135, 144, 141, 0.519);
@@ -13,10 +14,13 @@
 
 .card img {
     width: 100%;
-    height: 90%;
+    height:auto;
     border-radius: 10%;
+    object-fit: cover;
 }
 .card p {
+    width: 100%;
+    height: 10%;
     font-size: 1rem;
     text-align: center;
     color: rgb(247, 248, 249);
