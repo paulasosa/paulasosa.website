@@ -24,7 +24,7 @@ header {
 
 ul {
     width: 100%;
-    padding: 5%;
+    padding: 1%;
     background-color: rgba(254, 223, 137, 0.259);
     font-size: 1.2rem;
     display: flex;
@@ -86,13 +86,11 @@ li, a {
     ul {
         font-size: 1.8rem;
         gap: 20px;
+        padding-top: 0%;
     }
     
     footer {
         font-size: 1.8rem;
-    }
-    .center {
-        padding: 1%;
     }
     .container-center {
         margin-left: 10%;
@@ -122,9 +120,6 @@ li, a {
     
     footer {
         font-size: 2rem;
-    }
-    .center {
-        padding: 1%;
     }
     .container-center {
         margin-left: 10%;
