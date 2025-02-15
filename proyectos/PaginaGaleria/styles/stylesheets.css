@@ -110,33 +110,33 @@ li, a {
 
 @media (min-width: 1024px) and (max-width: 1920px) {
     header {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     nav {
         padding: 0%;
     }
     ul {
-        font-size: 1.8rem;
+        font-size: 2rem;
         gap: 20px;
+        margin-top: 0%;
     }
     
     footer {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .center {
-        padding-left: 0%;
-        padding-right: 0%;
+        padding: 1%;
     }
     .container-center {
         margin-left: 10%;
     }    
     .contents {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 30px;
     }
     .content {
-        min-width: 150px;
-        min-height: 250px;     
+        min-width: 250px;
+        min-height: 300px;     
     }
 }
 
