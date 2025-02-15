@@ -68,8 +68,8 @@ li, a {
     gap: 20px;
 }
 .content {
-    min-width: 100px;
-    min-height: 200px;
+    min-width: 150px;
+    max-height: 150px;
     background-color: black;
 }
 
@@ -100,7 +100,7 @@ li, a {
         gap: 30px;
     }
     .content {
-        min-width: 150px;
+        min-width: 250px;
         min-height: 250px;     
     }
 }
@@ -129,8 +129,8 @@ li, a {
         gap: 30px;
     }
     .content {
-        min-width: 250px;
-        min-height: 300px;     
+        min-width: 350px;
+        min-height: 350px;     
     }
 }
 
