@@ -161,6 +161,9 @@ footer {
     min-width: 100px;
     min-height: 100px;
   }
+  .p-icons {
+    padding-top: 30px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1920px){
@@ -202,5 +205,8 @@ footer {
     margin: 10px;
     min-width: 100px;
     min-height: 100px;
+  }
+  .p-icons {
+    padding-top: 40px;
   }
 }
