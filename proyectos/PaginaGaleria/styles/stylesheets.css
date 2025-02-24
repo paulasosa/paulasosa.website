@@ -101,7 +101,7 @@ li, a {
     }
     .content {
         min-width: 250px;
-        min-height: 250px;     
+        min-height: auto;     
     }
 }
 
@@ -130,7 +130,7 @@ li, a {
     }
     .content {
         min-width: 350px;
-        min-height: 350px;     
+        min-height: auto;     
     }
 }
 
