@@ -1,3 +1,5 @@
+/* ESTILOS INICIALES */
+
 *{
   padding: 0;
   margin: 0;
@@ -13,14 +15,18 @@ body {
   padding: 5%;
 }
 
+/* ESTILOS TITULO */
+
 .title {
   color: var(--titlecolor);
   font-size: 30px;
   text-align: center;
 }
+/* ESTILOS BLOG */
 .list_blog h2 {
   font-size: 30px;
   text-align: center;
+  padding: 2%;
 }
 .list_blog {
   display: grid;
@@ -28,19 +34,34 @@ body {
 .block_post {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 .post h2 {
   font-size: 26px;
   text-align: center;
+  padding-bottom: 3%;
 }
 .post p {
   font-size: 18px;
 }
+.post {
+  padding-bottom: 5%;
+}
+
+/* ESTILOS YOUTUBE */ 
 
 .list_youtube h2 {
   font-size: 30px;
   text-align: center;
+  padding: 2%;
 }
 .block_youtube {
   font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3%;
 }
+.block_youtube p {
+  padding-bottom: 2%;
+}
+
