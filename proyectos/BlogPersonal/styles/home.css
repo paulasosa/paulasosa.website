@@ -24,10 +24,22 @@ body {
 
 /*ESTILOS NAV*/
 .container-nav {
-  background-color: blueviolet;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 24px;
+  margin: 10px;
+  padding: 20px;
+  list-style-type: none;
 }
 
-
+.container-nav a {
+  color: black;  
+  text-decoration: none;
+}
 
 /*ESTILOS CENTRALES*/
 .container-main {
