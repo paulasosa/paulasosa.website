@@ -43,18 +43,25 @@ ul {
 
 /*ESTILOS CENTRALES*/
 .container-main {
-  background-color: aqua;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 20px;
 }
-
-.container-main img {
-  max-height: 100px;
-  max-width: 100px;
-  align-content: center;
+.container-main a {
+  width: fit-content;
+  block-size: fit-content;
+  text-align: center;
 }
+.container-main img {
+  min-width: 200px;
+  min-height: 150px;
+  max-height: 50%;
+  max-width: 50%;
+  
+}
+
+
 
 
 /* ESTILOS Footer */ 
