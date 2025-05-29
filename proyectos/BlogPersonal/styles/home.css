@@ -44,8 +44,17 @@ ul {
 /*ESTILOS CENTRALES*/
 .container-main {
   background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
 }
 
+.container-main img {
+  max-height: 100px;
+  max-width: 100px;
+  align-content: center;
+}
 
 
 /* ESTILOS Footer */ 
