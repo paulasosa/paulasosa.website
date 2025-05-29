@@ -59,12 +59,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3%;
+  margin-top: 20px;
 }
 .block_youtube p {
   padding-bottom: 2%;
 }
-
-
-/*ESTILOS HOME*/
-
-
