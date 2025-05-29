@@ -22,13 +22,33 @@ body {
   text-align: center;
 }
 
+/*ESTILOS NAV*/
+.container-nav {
+  background-color: blueviolet;
+}
+
+
+
+/*ESTILOS CENTRALES*/
+.container-main {
+  background-color: aqua;
+}
+
+
 
 /* ESTILOS Footer */ 
 
-.block_footer {
-  font-size: 18px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3%;
+.container-footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30%;
   margin-top: 20px;
+}
+.container-footer p {
+  text-align: start;
+}
+
+article .right {
+  padding-right: 20px;
 }
