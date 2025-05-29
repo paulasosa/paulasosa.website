@@ -101,3 +101,9 @@ ul {
 article .right {
   padding-right: 20px;
 }
+
+.container-footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
