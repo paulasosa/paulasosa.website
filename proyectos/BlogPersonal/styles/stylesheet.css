@@ -83,3 +83,21 @@ ul {
   color: black;  
   text-decoration: none;
 }
+
+
+/* ESTILOS Footer */ 
+
+.container-footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30%;
+  margin-top: 20px;
+}
+.container-footer p {
+  text-align: start;
+}
+
+article .right {
+  padding-right: 20px;
+}
