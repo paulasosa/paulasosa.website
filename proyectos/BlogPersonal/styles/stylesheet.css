@@ -5,11 +5,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
-  --oscuro: linear-gradient(to right top, #b9b9b9, #ffffff);
   --titlecolor: rgb(86, 6, 2);
 }
 html {
-  background-image: var(--oscuro);
+  height: 100vh;
 }
 body {
   padding: 5%;
@@ -64,4 +63,8 @@ body {
 .block_youtube p {
   padding-bottom: 2%;
 }
+
+
+/*ESTILOS HOME*/
+
 
