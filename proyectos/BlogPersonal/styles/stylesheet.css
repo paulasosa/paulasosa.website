@@ -20,6 +20,7 @@ body {
   color: var(--titlecolor);
   font-size: 30px;
   text-align: center;
+  padding-bottom: 10px;
 }
 /* ESTILOS BLOG */
 .list_blog h2 {
@@ -74,9 +75,8 @@ ul {
   justify-content: center;
   gap: 30px;
   font-size: 24px;
-  margin: 10px;
-  padding: 20px;
   list-style-type: none;
+  margin-top: 10px;
 }
 
 .container-nav a {
