@@ -11,6 +11,7 @@
 
 body {
   padding: 5%;
+  background-image: linear-gradient(to bottom, #e8fbff, #c8eefd, #addffe, #9acfff, #93bcff);
 }
 main {    
   display: grid;

@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
   --titlecolor: rgb(86, 6, 2);
+
 }
 html {
   height: 100vh;
