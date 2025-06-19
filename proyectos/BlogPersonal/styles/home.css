@@ -30,6 +30,7 @@ nav {
 h2 {
   font-size: 30px;
   padding: 2%;
+  margin-left: 8%;
 }
 /*ESTILOS NAV*/
 .container-nav {
@@ -105,6 +106,10 @@ article .right {
 }
 
 /*SECTION ABOUT ME*/
+.personal-sobremi {
+  margin-left: 8%;
+  margin-right: 8%;
+}
 
 .contents-icons {
   display: flex;
