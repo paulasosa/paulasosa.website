@@ -3,17 +3,23 @@
 *{
   padding: 0;
   margin: 0;
+  max-height: 100vh;
   box-sizing: border-box;
   font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
   --titlecolor: rgb(86, 6, 2);
 }
-html {
-  height: 100vh;
-}
+
 body {
   padding: 5%;
 }
-
+main {    
+  display: grid;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-items: center;
+}
 /* ESTILOS TITULO */
 
 .title {
@@ -25,17 +31,25 @@ body {
 /*ESTILOS NAV*/
 .container-nav {
   text-decoration: none;
-}
-ul {
-  display: flex;
   justify-content: center;
-  gap: 30px;
-  font-size: 24px;
-  margin: 10px;
-  padding: 20px;
-  list-style-type: none;
 }
 
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 10px;
+  font-size: 22px;
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+}
+.container-nav li {
+  border: 4px dotted rgb(86, 6, 2);
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 10px 10px;
+}
 .container-nav a {
   color: black;  
   text-decoration: none;
@@ -44,7 +58,8 @@ ul {
 /*ESTILOS CENTRALES*/
 .container-main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
   gap: 20px;
   padding: 20px;
 }
@@ -61,20 +76,18 @@ ul {
   
 }
 
-
-
-
 /* ESTILOS Footer */ 
 
 .container-footer {
+  max-width: 90%;
   font-size: 20px;
   display: flex;
   justify-content: flex-end;
   gap: 30%;
-  margin-top: 20px;
 }
 .container-footer p {
-  text-align: start;
+  text-align: center;
+  padding-bottom: 5%;
 }
 
 article .right {
