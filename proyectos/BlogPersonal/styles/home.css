@@ -104,7 +104,40 @@ article .right {
   font-size: 24px;
 }
 
+/*SECTION ABOUT ME*/
 
+.contents-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.contents-icons a {
+  text-decoration: none;
+}
+
+p{
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: justify;
+}
+.perfil img {
+  min-width: 150px;
+  max-width: 300px;
+  border-radius: 20%;
+}
+
+.blakIcon {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 30px;
+}
 
 /*MEDIA QUERIES*/
 
