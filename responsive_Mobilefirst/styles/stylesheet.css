@@ -104,7 +104,8 @@ main img {
 
 .content {
   min-width: 150px;
-  min-height: 150px;
+  max-height: 200px;
+  border-radius: 20%;
 }
 
 .contents-icons {
@@ -127,11 +128,17 @@ footer {
   font-weight: 700;
   margin: 2rem;
 }
-.perfil {
+.perfil {  
+  display: flex;
+  justify-content: center;
   gap: 20px;
   text-align: justify;
 }
-
+.fotoPersonal {
+  border-radius: 20%;
+  min-width: fit-content;
+  max-height: 150px;
+}
 /*Estilos @Media Responsive*/
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -150,8 +157,8 @@ footer {
     gap: 20px;
   }
   .content {
-    min-width: 250px;
-    min-height: 250px;
+    min-width: 200px;
+    min-height: 200px;
   }
   .contents-icons {
     display: flex;
@@ -166,6 +173,10 @@ footer {
   }
   .p-icons {
     padding-top: 30px;
+  }
+  .fotoPersonal {
+    min-width: 250px;
+    max-height: 250px;
   }
 }
 
@@ -194,8 +205,8 @@ footer {
       gap: 25px;
   }
   .content {
-    min-width: 350px;
-    min-height: 350px;
+    max-width: 250px;
+    max-height: 250px;
   }
   .contents-icons {
     display: flex;
@@ -211,5 +222,9 @@ footer {
   }
   .p-icons {
     padding-top: 40px;
+  }
+    .fotoPersonal {
+    min-width: 300px;
+    max-height: 300px;
   }
 }
