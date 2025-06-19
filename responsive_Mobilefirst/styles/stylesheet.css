@@ -127,7 +127,10 @@ footer {
   font-weight: 700;
   margin: 2rem;
 }
-
+.perfil {
+  gap: 20px;
+  text-align: justify;
+}
 
 /*Estilos @Media Responsive*/
 
