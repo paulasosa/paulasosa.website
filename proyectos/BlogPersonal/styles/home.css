@@ -143,6 +143,9 @@ p{
   max-height: 100px;
   margin-right: 30px;
 }
+.creator p {
+  margin-left: 5%;
+}
 
 /*MEDIA QUERIES*/
 
