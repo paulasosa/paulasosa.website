@@ -10,6 +10,7 @@
 }
 html {
   height: 100vh;
+  background-image: linear-gradient(to bottom, #e8fbff, #c8eefd, #addffe, #9acfff, #93bcff);
 }
 body {
   padding: 5%;
